@@ -1,0 +1,579 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(238, 221, 172);
+}
+
+
+
+/*----------------------------- HEADER---------------------------*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 4, 119);
+    color: white;
+    height: 55px;
+}
+
+
+
+/*---------------Estilos de la caja estrellas y h1 En el header-------------*/
+
+.cajah1{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-left: 20px;
+    box-sizing: border-box;
+    
+}
+
+
+
+/*------------------Estilos de la caja banderas-----------------*/
+
+.cajabanderas{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    
+}
+
+
+
+/*------------Estilos en botones de navegacion-navigationbar-----------------*/
+
+.navigationBarList{
+    display: flex;
+    align-self: flex-end;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+
+
+.enlace{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.enlace:hover{
+    color:  rgb(250, 209, 147);
+    
+}
+
+.active{
+    color: rgb(241, 153, 21);
+}
+
+
+/*-------------------Estilos en caja de productos-----------------*/
+
+.primeracaja{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 90%;
+}
+
+
+/*------Estilos en el titulo 'cambia la apariencia'-------*/
+
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2{
+    display: flex;
+    margin-top: 50px;
+    font-size: 35px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:  white;
+}
+
+
+.primeracaja .titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    background-color:  white;
+    flex-wrap: wrap;
+}
+
+
+/*-----------------Estilos en primer bloque de taxto---------------*/
+
+.parrafo1{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-top: 55px;
+    max-width: 90%;
+    margin-left: 40px;
+}
+
+
+/*----Estilos en tabla donde se encuentran alojados los productos-------*/
+
+.tabla{
+    margin-left: 25px;
+    flex-direction: row;
+    border: none;
+    flex-wrap: wrap;
+}
+
+.tabla .productomedidas{
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+
+
+/*---------Estilos en segundo bloque de texto---------*/
+
+.parrafo2{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color: rgb(43, 36, 2);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    flex-wrap: wrap;
+}
+
+
+.imagenprincipal{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+
+
+.imagvid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.imagvid .segimagbarba{
+    width: 300px;
+    
+}
+
+
+
+
+/*------------------Estilos del video---------*/
+
+video{
+    width: 800px;
+    height: 600px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+
+/*------------------Estilos en footer---------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(4, 4, 119);
+    height: 150px;
+    margin: 10px;
+}
+
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.social-icon li a{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    width: 50px;
+    height: 30px;
+    color: aliceblue;
+}
+
+
+.icon-elem{
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.icon{
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.3s;
+    
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.menu li a{
+    color: white;
+
+}
+
+
+.menu-elem{
+    list-style: none;
+}
+
+
+.menu-ic{
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.75;
+    transition: o.3s;
+}
+
+
+.menu-ic:hover{
+    color: rgb(250, 209, 147);
+    opacity: 1;
+}
+
+.text{
+    
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+/*-------------------Estilos del formulario-----------------*/
+
+
+#formulario{
+    margin: 0%;
+    box-sizing: border-box;
+    background-color:rgb(238, 221, 172);
+}
+
+
+
+/*--------------Estilos de la caja del formulario--------------*/
+
+
+
+.container *{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0;
+    padding: 3% 0;
+}
+
+
+
+
+/*-------------------Estilos de las listas-----------------*/
+
+
+.flex-outer, .flex-inner{
+    list-style-type: none;
+    padding: 5px;   
+}
+
+
+
+/*----------------Estilos de la lista principal---------------*/
+
+.flex-outer{
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.flex-outer li{
+    display: flex;
+    flex-wrap: wrap;   
+    
+}
+
+
+.flex-inner{
+    padding: px5;
+    flex-wrap: wrap;
+}
+
+
+.flex-outer > li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+
+.flex-outer li label, .flex-outer li p{
+    padding: 0px;
+    font-weight: 300;
+    letter-spacing: .05em;    
+}
+
+
+.flex-outer> li> label, .flex-outer li p{
+    flex: 1 0 120;   
+    max-width: 220px;    
+}
+
+
+.flex-outer> li> label + *, .flex-inner{
+    flex: 1 0 420px;    
+}
+
+
+.flex-outer li p{
+    margin: 10px;
+}
+
+.flex-outer li input:not([type='radio']), .flex-outer li textarea{
+    padding: 4px;
+    border-radius: 10px;    
+    background-color: white;
+}
+
+
+.flex-outer .liButtons button{
+    display: flex;
+    margin-left: auto;
+    padding: 3px 10px;
+    background-color:  rgb(4, 4, 119);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    border-radius: 15px;
+}
+
+
+.flex-outer .liButtons{
+    padding: 20px;
+}
+
+
+.flex-inner li input{
+    width: 12px;
+    margin-right: 7px;
+}
+
+
+/*-------------------Estilos en productos-----------------*/
+/*-------------------Estilos en productos-----------------*/
+/*-------------------Estilos en productos-----------------*/
+/*-------------------Estilos en productos-----------------*/
+
+
+.bodygaleria{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+
+
+.cajagaleria{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 140px;
+    width: 80%;
+    font-size: 15px;
+    gap: 8px;
+}
+
+.cajagaleria .cajanatura{
+    background-color:  rgb(238, 221, 172);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+
+
+.cajagaleria .cajanatura p{
+    text-indent: 10px;
+}
+
+
+.infonatura{
+    width: 140px;
+    height: 140px;
+}
+
+
+.producto{
+    width: 90px;
+    height: 90px;
+}
+
+
+.textolab{
+    margin-top: 50px;
+    width: 800px;
+    text-align: center;
+}
+
+
+.imagenlab{
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+
+.imaglaboratorio{
+    width: 400px;
+    height: 400px;
+    
+}
+
+
+
+table{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.natural{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablagaleria .imagennatural{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+}
+
+
+/*-------------------Estilos en pagina de contacto-----------------*/
+/*-------------------Estilos en pagina de contacto-----------------*/
+/*-------------------Estilos en pagina de contacto-----------------*/
+/*-------------------Estilos en pagina de contacto-----------------*/
+/*-------------------Estilos en pagina de contacto-----------------*/
+
+
+.contenedor-info{
+    margin: 20px;
+    margin-top: 55px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.contenedor-info .imagenynombre{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    gap: 6px;
+}
+
+
+
+.contenedor-info .iconfax{
+    margin-left: 50px;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor-info .icondireccionweb{
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ubicacionmap{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
